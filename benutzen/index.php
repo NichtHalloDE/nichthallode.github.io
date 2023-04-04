@@ -98,7 +98,7 @@
             <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle">Die gesamte URL kann wie folgt verwendet werden</br>
             <code>https://www.nichthallo.de?domain=Beispiel.de&signature=0&usage=0&footer=0</code></p>
             <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle"><br>Vorschläge für Veränderungen an der Seite sind gewünscht.<br>
-            <code>kontakt@keee.vin</code></p>
+            <a class="no-underline hover:no-underline" href="mailto:kontakt@keee.vin"><code>kontakt@keee.vin</code></a></p>
 		</div>
 			<div class="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in" >
 				<a class="text-gray-500 no-underline hover:no-underline" href="mailto:kontakt@keee.vin">&copy; 2019-<?php echo date("Y") ?> DriverSpy</a>
