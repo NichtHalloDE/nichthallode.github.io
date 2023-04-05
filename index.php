@@ -103,7 +103,7 @@ if (isset($_GET['signature'])) {
               <p><span class="text-info">KURZ GESAGT:</span> Rücke einfach direkt mit deinem Anliegen raus!<br>Damit ist jeder Seite am schnellsten geholfen!</p>
               <br>
               <br>
-              <?php if ($signature == true) { ?>
+              <?php if ($signature == true && ($domain1 || $domain2 || $domain3) != null) { ?>
               <p><span class="text-white" style="font-size: 1rem;">Dein <?php echo $domain3 ?></span></p>
               <?php } ?>
             </div>
